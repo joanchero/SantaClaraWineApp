@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049195BF1BF987B400EEFC6C /* events.txt in Resources */ = {isa = PBXBuildFile; fileRef = 049195BE1BF987B400EEFC6C /* events.txt */; };
+		9F5340051BD2A43D000FEE0F /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5340041BD2A43D000FEE0F /* FifthViewController.swift */; };
+		9F63581C1C0BE45600320303 /* AverFamilyVineyards.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358051C0BE45600320303 /* AverFamilyVineyards.png */; };
+		9F63581E1C0BE45600320303 /* castilloshillsidewinery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358071C0BE45600320303 /* castilloshillsidewinery.png */; };
+		9F63581F1C0BE45600320303 /* ClosLaChance.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358081C0BE45600320303 /* ClosLaChance.png */; };
+		9F6358201C0BE45600320303 /* CooperGarrodWinery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358091C0BE45600320303 /* CooperGarrodWinery.png */; };
+		9F6358211C0BE45600320303 /* CreekviewVineyards.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63580A1C0BE45600320303 /* CreekviewVineyards.png */; };
+		9F6358221C0BE45600320303 /* Fortino.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63580B1C0BE45600320303 /* Fortino.png */; };
+		9F6358231C0BE45600320303 /* guglielmowinery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63580C1C0BE45600320303 /* guglielmowinery.png */; };
+		9F6358241C0BE45600320303 /* HeckerPassWinery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63580D1C0BE45600320303 /* HeckerPassWinery.png */; };
+		9F6358251C0BE45600320303 /* JasonStephensWinery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63580E1C0BE45600320303 /* JasonStephensWinery.png */; };
+		9F6358261C0BE45600320303 /* JLohr.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63580F1C0BE45600320303 /* JLohr.png */; };
+		9F6358271C0BE45600320303 /* KiriginCellars.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358101C0BE45600320303 /* KiriginCellars.png */; };
+		9F6358281C0BE45600320303 /* LightheartCellars.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358111C0BE45600320303 /* LightheartCellars.png */; };
+		9F6358291C0BE45600320303 /* LionRanch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358121C0BE45600320303 /* LionRanch.png */; };
+		9F63582B1C0BE45600320303 /* MorganHillCellars.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358141C0BE45600320303 /* MorganHillCellars.png */; };
+		9F6358301C0BE45600320303 /* SolisWinery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358191C0BE45600320303 /* SolisWinery.png */; };
+		9F6358311C0BE45600320303 /* StephaniaWine.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63581A1C0BE45600320303 /* StephaniaWine.png */; };
+		9F6358321C0BE45600320303 /* SycamoreCreek.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63581B1C0BE45600320303 /* SycamoreCreek.png */; };
+		9F6358421C0C1D0300320303 /* MartinRanchWinery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358411C0C1D0300320303 /* MartinRanchWinery.png */; };
+		9F63584C1C0CDEC200320303 /* SCWALogo .png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63584B1C0CDEC200320303 /* SCWALogo .png */; };
+		9F63584E1C0D26B300320303 /* miramar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63584D1C0D26B300320303 /* miramar.png */; };
+		9F6358501C0D27E700320303 /* backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63584F1C0D27E700320303 /* backdrop.png */; };
+		9F6358521C0D289500320303 /* SunlitOaks.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358511C0D289500320303 /* SunlitOaks.png */; };
+		9F6358541C0D291D00320303 /* SeekerVineyard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358531C0D291D00320303 /* SeekerVineyard.png */; };
+		9F6358561C0D2DF900320303 /* SarahsVineyard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358551C0D2DF900320303 /* SarahsVineyard.png */; };
+		9F6358581C0D2E7600320303 /* RapazziniWinery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358571C0D2E7600320303 /* RapazziniWinery.png */; };
+		9F63585A1C0D2EED00320303 /* SatoriCellars.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6358591C0D2EED00320303 /* SatoriCellars.png */; };
+		9F63585C1C0D2F5800320303 /* Ross.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F63585B1C0D2F5800320303 /* Ross.png */; };
+		9F6723311BEF6414008E7CEC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6723301BEF6414008E7CEC /* DetailViewController.swift */; };
+		9F8745611C06337C00532A6D /* AssociatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8745601C06337C00532A6D /* AssociatesViewController.swift */; };
+		9FB2DC191BC70F3700FF342C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB2DC181BC70F3700FF342C /* logo.png */; };
+		9FBA4E951BF4232A005FE6EB /* map-pointer_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FBA4E941BF4232A005FE6EB /* map-pointer_small.png */; };
+		9FBA4E971BF423DE005FE6EB /* wine65.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FBA4E961BF423DE005FE6EB /* wine65.png */; };
+		9FBA4E991BF423FE005FE6EB /* fruit17.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FBA4E981BF423FE005FE6EB /* fruit17.png */; };
+		9FBA4E9B1BF42407005FE6EB /* drinks13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FBA4E9A1BF42407005FE6EB /* drinks13.png */; };
+		9FBA4E9D1BF42414005FE6EB /* bottle26.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FBA4E9C1BF42414005FE6EB /* bottle26.png */; };
+		9FBD7E0D1BE4534600A46028 /* wineries.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FBD7E0C1BE4534600A46028 /* wineries.txt */; };
+		9FD06E9D1BC46540006E3DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD06E9C1BC46540006E3DF7 /* AppDelegate.swift */; };
+		9FD06E9F1BC46540006E3DF7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD06E9E1BC46540006E3DF7 /* FirstViewController.swift */; };
+		9FD06EA11BC46540006E3DF7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD06EA01BC46540006E3DF7 /* SecondViewController.swift */; };
+		9FD06EA41BC46540006E3DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD06EA21BC46540006E3DF7 /* Main.storyboard */; };
+		9FD06EA61BC46540006E3DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD06EA51BC46540006E3DF7 /* Assets.xcassets */; };
+		9FD06EA91BC46540006E3DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD06EA71BC46540006E3DF7 /* LaunchScreen.storyboard */; };
+		9FE197441BCC23600076CE06 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE197431BCC23600076CE06 /* CoreLocation.framework */; };
+		9FE99A511BC6DDE0001D61C4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE99A501BC6DDDF001D61C4 /* ThirdViewController.swift */; };
+		9FE99A551BC6E5C4001D61C4 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE99A541BC6E5C4001D61C4 /* FourthViewController.swift */; };
+		9FF62EFD1C0F68A400979F53 /* CasadeFruta.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF62EFC1C0F68A400979F53 /* CasadeFruta.png */; };
+		9FF62EFF1C0F8C9800979F53 /* facebooklogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF62EFE1C0F8C9800979F53 /* facebooklogo.png */; };
+		9FFFFC5D1BDDAF06005EE60D /* associates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FFFFC5C1BDDAF06005EE60D /* associates.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049195BE1BF987B400EEFC6C /* events.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = events.txt; sourceTree = "<group>"; };
+		9F5340041BD2A43D000FEE0F /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		9F6358051C0BE45600320303 /* AverFamilyVineyards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AverFamilyVineyards.png; sourceTree = "<group>"; };
+		9F6358071C0BE45600320303 /* castilloshillsidewinery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castilloshillsidewinery.png; sourceTree = "<group>"; };
+		9F6358081C0BE45600320303 /* ClosLaChance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClosLaChance.png; sourceTree = "<group>"; };
+		9F6358091C0BE45600320303 /* CooperGarrodWinery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CooperGarrodWinery.png; sourceTree = "<group>"; };
+		9F63580A1C0BE45600320303 /* CreekviewVineyards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreekviewVineyards.png; sourceTree = "<group>"; };
+		9F63580B1C0BE45600320303 /* Fortino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fortino.png; sourceTree = "<group>"; };
+		9F63580C1C0BE45600320303 /* guglielmowinery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guglielmowinery.png; sourceTree = "<group>"; };
+		9F63580D1C0BE45600320303 /* HeckerPassWinery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeckerPassWinery.png; sourceTree = "<group>"; };
+		9F63580E1C0BE45600320303 /* JasonStephensWinery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JasonStephensWinery.png; sourceTree = "<group>"; };
+		9F63580F1C0BE45600320303 /* JLohr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JLohr.png; sourceTree = "<group>"; };
+		9F6358101C0BE45600320303 /* KiriginCellars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KiriginCellars.png; sourceTree = "<group>"; };
+		9F6358111C0BE45600320303 /* LightheartCellars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightheartCellars.png; sourceTree = "<group>"; };
+		9F6358121C0BE45600320303 /* LionRanch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LionRanch.png; sourceTree = "<group>"; };
+		9F6358141C0BE45600320303 /* MorganHillCellars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MorganHillCellars.png; sourceTree = "<group>"; };
+		9F6358191C0BE45600320303 /* SolisWinery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SolisWinery.png; sourceTree = "<group>"; };
+		9F63581A1C0BE45600320303 /* StephaniaWine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StephaniaWine.png; sourceTree = "<group>"; };
+		9F63581B1C0BE45600320303 /* SycamoreCreek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SycamoreCreek.png; sourceTree = "<group>"; };
+		9F6358411C0C1D0300320303 /* MartinRanchWinery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MartinRanchWinery.png; sourceTree = "<group>"; };
+		9F63584B1C0CDEC200320303 /* SCWALogo .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SCWALogo .png"; sourceTree = "<group>"; };
+		9F63584D1C0D26B300320303 /* miramar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miramar.png; sourceTree = "<group>"; };
+		9F63584F1C0D27E700320303 /* backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdrop.png; sourceTree = "<group>"; };
+		9F6358511C0D289500320303 /* SunlitOaks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SunlitOaks.png; sourceTree = "<group>"; };
+		9F6358531C0D291D00320303 /* SeekerVineyard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeekerVineyard.png; sourceTree = "<group>"; };
+		9F6358551C0D2DF900320303 /* SarahsVineyard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SarahsVineyard.png; sourceTree = "<group>"; };
+		9F6358571C0D2E7600320303 /* RapazziniWinery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RapazziniWinery.png; sourceTree = "<group>"; };
+		9F6358591C0D2EED00320303 /* SatoriCellars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SatoriCellars.png; sourceTree = "<group>"; };
+		9F63585B1C0D2F5800320303 /* Ross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ross.png; sourceTree = "<group>"; };
+		9F6723301BEF6414008E7CEC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9F8745601C06337C00532A6D /* AssociatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatesViewController.swift; sourceTree = "<group>"; };
+		9FB2DC181BC70F3700FF342C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		9FBA4E941BF4232A005FE6EB /* map-pointer_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-pointer_small.png"; sourceTree = "<group>"; };
+		9FBA4E961BF423DE005FE6EB /* wine65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wine65.png; sourceTree = "<group>"; };
+		9FBA4E981BF423FE005FE6EB /* fruit17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruit17.png; sourceTree = "<group>"; };
+		9FBA4E9A1BF42407005FE6EB /* drinks13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drinks13.png; sourceTree = "<group>"; };
+		9FBA4E9C1BF42414005FE6EB /* bottle26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle26.png; sourceTree = "<group>"; };
+		9FBD7E0C1BE4534600A46028 /* wineries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wineries.txt; sourceTree = "<group>"; };
+		9FD06E991BC46540006E3DF7 /* SantaClaraValleyWineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SantaClaraValleyWineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD06E9C1BC46540006E3DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FD06E9E1BC46540006E3DF7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9FD06EA01BC46540006E3DF7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9FD06EA31BC46540006E3DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FD06EA51BC46540006E3DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FD06EA81BC46540006E3DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FD06EAA1BC46540006E3DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE197431BCC23600076CE06 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9FE99A501BC6DDDF001D61C4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9FE99A541BC6E5C4001D61C4 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		9FF62EFC1C0F68A400979F53 /* CasadeFruta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CasadeFruta.png; sourceTree = "<group>"; };
+		9FF62EFE1C0F8C9800979F53 /* facebooklogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebooklogo.png; sourceTree = "<group>"; };
+		9FFFFC5C1BDDAF06005EE60D /* associates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = associates.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FD06E961BC46540006E3DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE197441BCC23600076CE06 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F6358041C0BE16900320303 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				9FF62EFE1C0F8C9800979F53 /* facebooklogo.png */,
+				9F63584B1C0CDEC200320303 /* SCWALogo .png */,
+				9F63584D1C0D26B300320303 /* miramar.png */,
+				9F6358051C0BE45600320303 /* AverFamilyVineyards.png */,
+				9F6358071C0BE45600320303 /* castilloshillsidewinery.png */,
+				9F6358081C0BE45600320303 /* ClosLaChance.png */,
+				9F6358531C0D291D00320303 /* SeekerVineyard.png */,
+				9F6358091C0BE45600320303 /* CooperGarrodWinery.png */,
+				9F63580A1C0BE45600320303 /* CreekviewVineyards.png */,
+				9F63580B1C0BE45600320303 /* Fortino.png */,
+				9F63580C1C0BE45600320303 /* guglielmowinery.png */,
+				9F63580D1C0BE45600320303 /* HeckerPassWinery.png */,
+				9F63580E1C0BE45600320303 /* JasonStephensWinery.png */,
+				9F6358511C0D289500320303 /* SunlitOaks.png */,
+				9F63585B1C0D2F5800320303 /* Ross.png */,
+				9F63580F1C0BE45600320303 /* JLohr.png */,
+				9FF62EFC1C0F68A400979F53 /* CasadeFruta.png */,
+				9F63584F1C0D27E700320303 /* backdrop.png */,
+				9F6358571C0D2E7600320303 /* RapazziniWinery.png */,
+				9F6358101C0BE45600320303 /* KiriginCellars.png */,
+				9F6358111C0BE45600320303 /* LightheartCellars.png */,
+				9F6358411C0C1D0300320303 /* MartinRanchWinery.png */,
+				9F6358121C0BE45600320303 /* LionRanch.png */,
+				9F6358591C0D2EED00320303 /* SatoriCellars.png */,
+				9F6358551C0D2DF900320303 /* SarahsVineyard.png */,
+				9F6358141C0BE45600320303 /* MorganHillCellars.png */,
+				9F6358191C0BE45600320303 /* SolisWinery.png */,
+				9F63581A1C0BE45600320303 /* StephaniaWine.png */,
+				9F63581B1C0BE45600320303 /* SycamoreCreek.png */,
+				9FB2DC181BC70F3700FF342C /* logo.png */,
+				9FBA4E961BF423DE005FE6EB /* wine65.png */,
+				9FBA4E9A1BF42407005FE6EB /* drinks13.png */,
+				9FBA4E9C1BF42414005FE6EB /* bottle26.png */,
+				9FBA4E941BF4232A005FE6EB /* map-pointer_small.png */,
+				9FBA4E981BF423FE005FE6EB /* fruit17.png */,
+			);
+			name = pics;
+			sourceTree = "<group>";
+		};
+		9FD06E901BC46540006E3DF7 = {
+			isa = PBXGroup;
+			children = (
+				9FE197431BCC23600076CE06 /* CoreLocation.framework */,
+				9FD06E9B1BC46540006E3DF7 /* SantaClaraValleyWineApp */,
+				9FD06E9A1BC46540006E3DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FD06E9A1BC46540006E3DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD06E991BC46540006E3DF7 /* SantaClaraValleyWineApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD06E9B1BC46540006E3DF7 /* SantaClaraValleyWineApp */ = {
+			isa = PBXGroup;
+			children = (
+				9FD06E9C1BC46540006E3DF7 /* AppDelegate.swift */,
+				9FD06E9E1BC46540006E3DF7 /* FirstViewController.swift */,
+				9FD06EA01BC46540006E3DF7 /* SecondViewController.swift */,
+				9FE99A501BC6DDDF001D61C4 /* ThirdViewController.swift */,
+				9FE99A541BC6E5C4001D61C4 /* FourthViewController.swift */,
+				9F5340041BD2A43D000FEE0F /* FifthViewController.swift */,
+				9F6723301BEF6414008E7CEC /* DetailViewController.swift */,
+				9F8745601C06337C00532A6D /* AssociatesViewController.swift */,
+				9FD06EA21BC46540006E3DF7 /* Main.storyboard */,
+				9F6358041C0BE16900320303 /* pics */,
+				9FBD7E0C1BE4534600A46028 /* wineries.txt */,
+				9FFFFC5C1BDDAF06005EE60D /* associates.txt */,
+				049195BE1BF987B400EEFC6C /* events.txt */,
+				9FD06EA51BC46540006E3DF7 /* Assets.xcassets */,
+				9FD06EA71BC46540006E3DF7 /* LaunchScreen.storyboard */,
+				9FD06EAA1BC46540006E3DF7 /* Info.plist */,
+			);
+			path = SantaClaraValleyWineApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FD06E981BC46540006E3DF7 /* SantaClaraValleyWineApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD06EAD1BC46540006E3DF7 /* Build configuration list for PBXNativeTarget "SantaClaraValleyWineApp" */;
+			buildPhases = (
+				9FD06E951BC46540006E3DF7 /* Sources */,
+				9FD06E961BC46540006E3DF7 /* Frameworks */,
+				9FD06E971BC46540006E3DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SantaClaraValleyWineApp;
+			productName = SantaClaraValleyWineApp;
+			productReference = 9FD06E991BC46540006E3DF7 /* SantaClaraValleyWineApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FD06E911BC46540006E3DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SCVWAA;
+				TargetAttributes = {
+					9FD06E981BC46540006E3DF7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5892R92X7W;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 9FD06E941BC46540006E3DF7 /* Build configuration list for PBXProject "SantaClaraValleyWineApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FD06E901BC46540006E3DF7;
+			productRefGroup = 9FD06E9A1BC46540006E3DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FD06E981BC46540006E3DF7 /* SantaClaraValleyWineApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FD06E971BC46540006E3DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB2DC191BC70F3700FF342C /* logo.png in Resources */,
+				9F63585C1C0D2F5800320303 /* Ross.png in Resources */,
+				9F6358321C0BE45600320303 /* SycamoreCreek.png in Resources */,
+				9F6358251C0BE45600320303 /* JasonStephensWinery.png in Resources */,
+				9FD06EA91BC46540006E3DF7 /* LaunchScreen.storyboard in Resources */,
+				9F6358241C0BE45600320303 /* HeckerPassWinery.png in Resources */,
+				9F6358201C0BE45600320303 /* CooperGarrodWinery.png in Resources */,
+				9FD06EA61BC46540006E3DF7 /* Assets.xcassets in Resources */,
+				9F6358311C0BE45600320303 /* StephaniaWine.png in Resources */,
+				9F63581F1C0BE45600320303 /* ClosLaChance.png in Resources */,
+				9F63581C1C0BE45600320303 /* AverFamilyVineyards.png in Resources */,
+				9F6358421C0C1D0300320303 /* MartinRanchWinery.png in Resources */,
+				9F6358581C0D2E7600320303 /* RapazziniWinery.png in Resources */,
+				9FBA4E971BF423DE005FE6EB /* wine65.png in Resources */,
+				9FBA4E951BF4232A005FE6EB /* map-pointer_small.png in Resources */,
+				9F6358211C0BE45600320303 /* CreekviewVineyards.png in Resources */,
+				049195BF1BF987B400EEFC6C /* events.txt in Resources */,
+				9FD06EA41BC46540006E3DF7 /* Main.storyboard in Resources */,
+				9F6358291C0BE45600320303 /* LionRanch.png in Resources */,
+				9FF62EFD1C0F68A400979F53 /* CasadeFruta.png in Resources */,
+				9F6358541C0D291D00320303 /* SeekerVineyard.png in Resources */,
+				9FBA4E9B1BF42407005FE6EB /* drinks13.png in Resources */,
+				9F6358501C0D27E700320303 /* backdrop.png in Resources */,
+				9F63581E1C0BE45600320303 /* castilloshillsidewinery.png in Resources */,
+				9F6358271C0BE45600320303 /* KiriginCellars.png in Resources */,
+				9F63582B1C0BE45600320303 /* MorganHillCellars.png in Resources */,
+				9F6358281C0BE45600320303 /* LightheartCellars.png in Resources */,
+				9F6358221C0BE45600320303 /* Fortino.png in Resources */,
+				9FBA4E9D1BF42414005FE6EB /* bottle26.png in Resources */,
+				9F6358521C0D289500320303 /* SunlitOaks.png in Resources */,
+				9F6358261C0BE45600320303 /* JLohr.png in Resources */,
+				9F6358301C0BE45600320303 /* SolisWinery.png in Resources */,
+				9FBA4E991BF423FE005FE6EB /* fruit17.png in Resources */,
+				9F6358561C0D2DF900320303 /* SarahsVineyard.png in Resources */,
+				9F63584C1C0CDEC200320303 /* SCWALogo .png in Resources */,
+				9F6358231C0BE45600320303 /* guglielmowinery.png in Resources */,
+				9FF62EFF1C0F8C9800979F53 /* facebooklogo.png in Resources */,
+				9F63585A1C0D2EED00320303 /* SatoriCellars.png in Resources */,
+				9FBD7E0D1BE4534600A46028 /* wineries.txt in Resources */,
+				9FFFFC5D1BDDAF06005EE60D /* associates.txt in Resources */,
+				9F63584E1C0D26B300320303 /* miramar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD06E951BC46540006E3DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5340051BD2A43D000FEE0F /* FifthViewController.swift in Sources */,
+				9FD06EA11BC46540006E3DF7 /* SecondViewController.swift in Sources */,
+				9FD06E9D1BC46540006E3DF7 /* AppDelegate.swift in Sources */,
+				9FE99A511BC6DDE0001D61C4 /* ThirdViewController.swift in Sources */,
+				9FD06E9F1BC46540006E3DF7 /* FirstViewController.swift in Sources */,
+				9FE99A551BC6E5C4001D61C4 /* FourthViewController.swift in Sources */,
+				9F6723311BEF6414008E7CEC /* DetailViewController.swift in Sources */,
+				9F8745611C06337C00532A6D /* AssociatesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FD06EA21BC46540006E3DF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD06EA31BC46540006E3DF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FD06EA71BC46540006E3DF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD06EA81BC46540006E3DF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FD06EAB1BC46540006E3DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FD06EAC1BC46540006E3DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FD06EAE1BC46540006E3DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SantaClaraValleyWineApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SCVWAA.SantaClaraValleyWineApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9FD06EAF1BC46540006E3DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SantaClaraValleyWineApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SCVWAA.SantaClaraValleyWineApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FD06E941BC46540006E3DF7 /* Build configuration list for PBXProject "SantaClaraValleyWineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD06EAB1BC46540006E3DF7 /* Debug */,
+				9FD06EAC1BC46540006E3DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD06EAD1BC46540006E3DF7 /* Build configuration list for PBXNativeTarget "SantaClaraValleyWineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD06EAE1BC46540006E3DF7 /* Debug */,
+				9FD06EAF1BC46540006E3DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FD06E911BC46540006E3DF7 /* Project object */;
+}
